@@ -1,0 +1,67 @@
+body{
+    background-image: url(Site-Acsesaris/Nav-Pic.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+
+.header-icon{
+    width: 3.5%;
+}
+
+.header-link-left{
+    font-size: 3vw;
+    font-family: Tahu;
+    text-decoration: none !important;
+}
+
+.header-link-right{
+    font-size: 3vw;
+    font-family: Duwhoers;
+    text-decoration: none !important;
+    float: right;
+}
+
+.ano-nav{
+    font-size: 1.6vw !important;
+    margin-top: -0.5%;
+    font-family: Tinos;
+}
+
+.nav-link{
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    color: azure !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgba(246, 85, 85, 0.7) !important;
+}
+
+.nav-pills .nav-link.drop {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.dropdown-menu{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    background-color: white !important;
+}
+
+.dropdown-item{
+    padding-bottom: 0px !important;
+    padding-left: 10px !important;
+    background-color: rgba(229, 55, 255, 0.3) !important;
+}
+
+.top{
+    padding-top: 0px !important;
+}
+
+footer{
+  background-color: darkblue;
+  color: aliceblue;
+}
+
+@media (max-width: 768ppx) {
+
+}

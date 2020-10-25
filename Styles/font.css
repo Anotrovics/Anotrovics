@@ -1,0 +1,16 @@
+@font-face{
+	font-family:Duwhoers;
+	src: url(../Fonts/Duwhoers/Duwhoers.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: 'Tahu';
+    src: url(../Fonts/Tahu/Tahu.ttf)
+    format("truetype");
+}
+
+@font-face{
+    font-family: 'Tinos';
+    src: url(../Fonts/Tinos/Tinos-Regular.ttf)
+    format("truetype");
+}
