@@ -1,6 +1,7 @@
 @font-face{
 	font-family:Duwhoers;
-	src: url(../Fonts/Duwhoers/Duwhoers.ttf) format("truetype");
+	src: url(../Fonts/Duwhoers/Duwhoers.ttf)
+	format("truetype");
 }
 
 @font-face{
