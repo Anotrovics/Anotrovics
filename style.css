@@ -26,20 +26,26 @@ body{
     margin-top: -0.5%;
     font-family: Tinos;
     padding-left: 1vw !important;
-    padding-right:1vw !important;
+    padding-right: 1vw !important;
+    padding-top: 0px !important;
 }
 
 .nav-link{
     padding-bottom: 0px !important;
     padding-top: 0px !important;
-    color: red !important;
+    color: blue !important;
+    text-align: center;
 }
 
 .active {
     background-color: rgba(246, 85, 85, 0.7) !important;
     border-radius: 3px !important;
     border-width: 5px !important;
-}
+    margin-left: 2% !important;
+    text-align: center;
+    padding-left: 1vw !important;
+    padding-right: 1vw !important;
+  }
 
 .nav-link.drop {
     background-color: rgba(0, 0, 0, 0) !important;
@@ -69,20 +75,28 @@ body{
 }
 
 .my-search{
-  height: 15px !important;
-  width: 15vw !important;
+  height: 2.5vw  !important;
+  width: 20vw !important;
   font-size: 1.8vw !important;
   margin-right: 0px !important;
-  border-color: red !important;
   border-radius: 3px !important;
+  padding-left: 0.5vw !important;
+  padding-right: 0px !important;
 }
 
 .my-btn{
-  height: 16px !important;
-  padding-top: 2px !important;
-  font-size: 1vw !important;
+  height: 2.5vw !important;
+  font-size: 2vw !important;
   margin-right: 0px !important;
-  width: 30px !important;
+  padding-top: 0px !important;
+  padding-bottom: 2.6vw !important;
+  width: 2%  !important;
+  text-align: center;
+}
+
+.card{
+  width: 200px;
+  margin-right: 0px !important;
 }
 
 footer{

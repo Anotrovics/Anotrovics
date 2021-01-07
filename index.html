@@ -1,88 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-             <!--Tittle-->
-        <title>Anotrovics</title>
-        <link rel="icon" type="image/png" href="Site-Acsesaris/Icon.png"/>
+<head>
+  <!--Tittle-->
+  <title>Anotrovics</title>
+  <link rel="icon" type="image/png" href="Site-Acsesaris/Icon.png"/>
 
-        <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <!--My Css Links-->
-    <link rel="stylesheet" type="text/css" href="Style.css"/>
-    <link rel="stylesheet" type="text/css" href="Styles/font.css"/>
+  <!--My Css Links-->
+  <link rel="stylesheet" type="text/css" href="Style.css"/>
+  <link rel="stylesheet" type="text/css" href="Styles/font.css"/>
+</head>
 
-                   <!--Bootstrap/Css/Javascript Links-->
-        <link rel="stylesheet"
-              href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
-              integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
-              crossorigin="anonymous">
+<body>
+  <header>
 
-          </head>
+    <a href="" class="header-link-left" style="color: rgba(255, 255, 255, 0.7)">
+      <img class="header-icon" src="Site-Acsesaris/Icon.png">notrovics
+    </a>
 
-    <body>
-        <header>
-            <a href="" class="header-link-left" style="color: rgba(255, 255, 255, 0.7)">
-                <img class="header-icon" src="Site-Acsesaris/Icon.png">notrovics
-            </a>
+    <span class="header-link-right" style="color: rgba(255, 255, 255, 0.7)">The Community for whatever you desire.</span>
 
-            <span class="header-link-right" style="color: rgba(255, 255, 255, 0.7)">The Community for whatever you desire.</span>
-        </header>
+  </header>
+  <div class="row">
+    <nav class="ano-nav navbar" style="background-color: #fffff00;">
 
-        <nav class="ano-nav navbar" style="background-color: #fffff00;">
+      <a class="nav-link active text-wrap col" href="index.html" tabindex="-1" aria-disabled="true">Home</a>
 
-          <a class="nav-link active text-wrap" href="index.html" tabindex="-1" aria-disabled="true">Home</a>
+      <a class="nav-link col" href="#"> Softwares</a>
 
-          <a class="nav-link" href="#"> Softwares</a>
+      <a class="nav-link col" href="#">Games</a>
 
-          <a class="nav-link" href="#">Games</a>
+      <a class="nav-link drop col" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+      <div class="dropdown-menu dropdown-menu-right">
+        <a class="dropdown-item" href="products\digital-products\digital-products.html" style="font-size: 1.2vw;">All Digital Products</a>
+        <a class="dropdown-item" href="products\digital-products\3D-Model.html" style="font-size: 1.2vw;">3D Models</a>
+        <a class="dropdown-item" href="#" style="font-size: 1.2vw;">Material</a>
+        <a class="dropdown-item" href="#" style="font-size: 1.2vw;">Textures</a>
+        <a class="dropdown-item" href="#" style="font-size: 1.2vw;">Reference Image</a>
+      </div>
 
-          <a class="nav-link drop" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+      <a class="nav-link drop col" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#" style="font-size: 1.2vw; padding-top: 5px;">All Products</a>
+        <a class="dropdown-item top" href="#" style="font-size: 1.2vw;">Digital Products</a>
+        <a class="dropdown-item top" href="#" style="font-size: 1.2vw;">Hardware</a>
+        <a class="dropdown-item top" href="#" style="font-size: 1.2vw;">Software</a>
+      </div>
 
-          <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item" href="products\digital-products\digital-products.html" style="font-size: 1.2vw;">All Digital Products</a>
-            <a class="dropdown-item" href="products\digital-products\3D-Model.html" style="font-size: 1.2vw;">3D Models</a>
-            <a class="dropdown-item" href="#" style="font-size: 1.2vw;">Material</a>
-            <a class="dropdown-item" href="#" style="font-size: 1.2vw;">Textures</a>
-            <a class="dropdown-item" href="#" style="font-size: 1.2vw;">Reference Image</a>
+      <input class="my-search col" type="search" placeholder="Search" aria-label="Search">
+      <button class="my-btn btn btn-outline-success col" type="submit">Search</button>
+    </nav>
+  </div>
+
+  <section>
+
+    <article>
+      <div class="card-group">
+        <div class="card" style="width: 18rem;">
+          <img src="products\pillow.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
-
-          <a class="nav-link drop" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#" style="font-size: 1.2vw; padding-top: 5px;">All Products</a>
-            <a class="dropdown-item top" href="#" style="font-size: 1.2vw;">Digital Products</a>
-            <a class="dropdown-item top" href="#" style="font-size: 1.2vw;">Hardware</a>
-            <a class="dropdown-item top" href="#" style="font-size: 1.2vw;">Software</a>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
           </div>
-
-          <form style="">
-            <input type="search" placeholder="Search" aria-label="Search">
-            <button type="submit">Search</button>
-          </form>
-        </nav>
-
-        <section>
-
-          <nav>
-            <ul>
-
-              <li><a href="#">London</a></li>
-
-              <li><a href="#">Paris</a></li>
-
-              <li><a href="#">Tokyo</a></li>
-            </ul>
-            </nav>
-
-            <article>
-
-            </article>
-        </section>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="products\pillow.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+    </article>
+  </section>
 
         <footer>
             <p>Footer</p>
@@ -91,6 +104,6 @@
         <!-- Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384DfXdz2htPH0lsSSs5nCTpuj/zy 4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      </body>
 
-    </body>
 </html>
