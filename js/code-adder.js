@@ -1,35 +1,42 @@
-function s() {
-  var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById('myInput');
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
-  li = ul.getElementsByClassName('card');
+ranArray =[]
+for (i=0; i < 5; i++){
+  ranArray[i] = i + 1
+}
+i = ranArray.length
 
-  // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("h5")[0];
-    txtValue = a.textContent || a.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
+while (i--) {
+  ran = Math.floor(Math.random() * (i+1));
+  // swap randomly chosen element with current element
+  char = ranArray[i];
+  ranArray[i] = ranArray[ran];
+  ranArray[ran] = char;
+  console.log(array[i]);
 }
 
-function searchFuntion() {
-  array =[]
-  for (i=0; i < 5; i++){
-    array[i] = i + 1
-  }
-  i = array.length
+function FileUpload() {
+  // GET THE FILE INPUT.
+  var fi = document.getElementById('file');
 
-  while (i--) {
-    j = Math.floor(Math.random() * (i+1));
-    // swap randomly chosen element with current element
-    char = array[i];
-    array[i] = array[j];
-    array[j] = char;
-  }
-  window.alert(array)
+  // VALIDATE OR CHECK IF ANY FILE IS SELECTED.
+  if (fi.files.length > 0) {
+
+    // THE TOTAL FILE COUNT.
+    document.getElementById('fp').innerHTML =
+    'Total Files: <b>' + fi.files.length + '</b></br >';
+
+    // RUN A LOOP TO CHECK EACH SELECTED FILE.
+    for (var i = 0; i <= fi.files.length - 1; i++) {
+
+      var fname = fi.files.item(i).name;      // THE NAME OF THE FILE.
+      var fsize = fi.files.item(i).size;      // THE SIZE OF THE FILE.
+
+            // SHOW THE EXTRACTED DETAILS OF THE FILE.
+            document.getElementById('fp').innerHTML =
+                document.getElementById('fp').innerHTML + '<br /> ' +
+                    fname + ' (<b>' + fsize + '</b> bytes)';
+        }
+    }
+    else {
+        alert('Please select a file.')
+    }
 }

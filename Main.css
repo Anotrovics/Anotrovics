@@ -22,30 +22,36 @@ body{
 }
 
 .ano-nav{
-    font-size: 1.6vw !important;
-    margin-top: -0.5%;
-    font-family: Tinos;
-    padding-left: 1vw !important;
-    padding-right: 1vw !important;
-    padding-top: 0px !important;
+  font-size: 1.6vw !important;
+  margin-top: -0.5%;
+  font-family: Tinos;
+  padding-left: 1vw !important;
+  padding-right: 1vw !important;
+  padding-top: 0px !important;
+  position: relative;
+  top: -0.2vh;
 }
 
 .nav-link{
     padding-bottom: 0px !important;
+    width: 10px !important;
     padding-top: 0px !important;
-    color: blue !important;
+    color: black !important;
     text-align: center;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
 }
 
 .active {
-    background-color: rgba(246, 85, 85, 0.7) !important;
-    border-radius: 3px !important;
-    border-width: 5px !important;
-    margin-left: 2% !important;
-    text-align: center;
-    padding-left: 1vw !important;
-    padding-right: 1vw !important;
-  }
+  background-color: rgba(246, 85, 85, 0.7) !important;
+  border-radius: 3px !important;
+  border-width: 5px !important;
+  margin-left: 2% !important;
+  text-align: center;
+  padding-left: 1vw !important;
+  padding-right: 1vw !important;
+}
 
 .nav-link.drop {
     background-color: rgba(0, 0, 0, 0) !important;
@@ -67,16 +73,9 @@ body{
     padding-top: 0px !important;
 }
 
-.my-form{
-  height: 2vw !important;
-  margin-right: 0px !important;
-  background-color: transparent !important;
-  float: right !important;
-}
-
 .my-search{
   height: 2.5vw  !important;
-  width: 20vw !important;
+  width: 30vw !important;
   font-size: 1.8vw !important;
   margin-right: 0px !important;
   border-radius: 3px !important;
