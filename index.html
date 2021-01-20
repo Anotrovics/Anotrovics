@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <!--Tittle-->
   <title>Anotrovics</title>
   <link rel="icon" type="image/png" href="Site-Acsesaris/Icon.png"/>
@@ -13,7 +14,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
   <!--My Css Links-->
-  <link rel="stylesheet" type="text/css" href="Style.css"/>
+  <link rel="stylesheet" type="text/css" href="Main.css"/>
   <link rel="stylesheet" type="text/css" href="Styles/font.css"/>
 </head>
 
@@ -53,53 +54,78 @@
         <a class="dropdown-item top" href="#" style="font-size: 1.2vw;">Software</a>
       </div>
 
-      <input class="my-search col" type="search" placeholder="Search" aria-label="Search">
-      <button class="my-btn btn btn-outline-success col" type="submit">Search</button>
+      <input class="my-search col" type="search" id="myInput" placeholder="Search" aria-label="Search">
+      <button class="my-btn btn btn-outline-success col" onclick="searchFuntion()" type="submit">Search</button>
     </nav>
   </div>
 
   <section>
 
     <article>
-      <div class="card-group">
-        <div class="card" style="width: 18rem;">
-          <img src="products\pillow.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+      <div class="row row-cols-4 row-cols-md-4 g-1" id="myUL">
+        <div class="col">
+          <div class="card h-100">
+            <img calass="card-image" src="products\pillow.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a cat video.</p>
+            </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="products\pillow.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+        <div class="col">
+          <div class="card h-100">
+            <img src="products\pillow.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
           </div>
         </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="products\pillow.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="products\pillow.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="products\pillow.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="products\pillow.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
   </section>
 
         <footer>
-            <p>Footer</p>
+            <p id="test">Footer</p>
         </footer>
+
+        <script type="text/javascript" src="js\code-adder.js"></script>
 
         <!-- Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
